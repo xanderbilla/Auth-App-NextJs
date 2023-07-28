@@ -17,7 +17,7 @@ export const connect = async () => {
         connection.on('error', (err) => {
             console.log(`MongoDB Connection Error. Please make sure MongoDB is running..! | ${err}`);
             process.exit();
-        })
+        })  
 
     } catch (error) {
         console.log('Something went wrong!!!');
